@@ -11,7 +11,7 @@ Navigation mode analyzes a page as it loads from start to finish (measures load 
 Based on the Lighthouse results, here are the 3 things I would improve: 
 First, the CSS file (main.css) is blocking the page from rendering right away, so it could be loaded in a way that doesn't hold up the rest of the page. 
 Second, the site's static files like images, scripts, and stylesheets have short cache lifetimes (only 10 minutes), so setting longer cache times would help the page load faster for returning visitors. 
-Third, the site has a long chain of files that depend on each other to load (the HTML loads storage.js, which then loads product-item.js, then main.js), so reducing this chain or preloading some of these files would help the page load quicker overall
+Third, the site has a long chain of files that depend on each other to load (the HTML loads storage.js, which then loads product-item.js, then main.js), so reducing this chain or preloading some of these files would help the page load quicker overall.
 
 
 
